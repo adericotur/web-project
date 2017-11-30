@@ -78,7 +78,8 @@ header a:hover{
 
 .showcase{
   min-height: 400px;
-  background:url('img/tema.jpg') no-repeat 0 -400px;
+  background:url('img/tema.jpg') no-repeat;
+  background-size: fill;
   text-align: center;
   color: #ffffff;
   object-fit: cover;
